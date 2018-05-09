@@ -1,0 +1,29 @@
+.sobre {
+    height: auto;
+    background-color: tomato;
+    margin: 0px;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.titulo h2 {
+    font-family: inherit;
+    font-size: 50px;
+    color: inherit;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.titulo p {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    width: 100%;    
+}
+
+
+.itens {
+    display: flex;
+}

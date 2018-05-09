@@ -1,0 +1,54 @@
+.ipsum {
+    background-color: white;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 20px;
+}
+
+.ipsum_icon {
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
+.ipsum h3 {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    padding: 0px 10px;
+}
+
+.ipsum p {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    padding: 0px 60px;    
+}
+
+.ipsumBtn {
+    font-family: inherit;
+    font-size: 20px;
+    border: 1px solid rgb(255, 0, 0);
+    text-decoration-line: none;
+    text-decoration-style: none;
+    color: rgb(255, 0, 0);
+    padding: 10px 20px;
+    /* width: 30%;  */
+    margin: 100px;
+}
+
+:hover.ipsumBtn{
+    transition: 0.5s;
+    color: white;
+    background-color: rgb(255, 0, 0);
+}
+
+.infos {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+    margin-top: 0px;
+    /* margin-bottom: auto; */
+}

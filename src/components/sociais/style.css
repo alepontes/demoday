@@ -1,0 +1,54 @@
+.sociais {
+    height: 100vh;
+    background-image: url('banner.jpg');
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo {
+    color: white;
+    text-align: center;
+    padding-top: 15%;
+}
+
+.conteudo h3 {
+    display: flex;
+    justify-content: center;
+    font-family: inherit;
+    font-size: 40px;  
+    margin: 10px 0px;
+    text-align: center;
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+
+.conteudo h3 strong {
+    color: red;
+    padding: 0px 5px;
+}
+
+.conteudo p {
+    font-family: inherit;
+    font-size: 20px;  
+    margin: 10px 0px;
+    padding: 1% 9%;
+    padding-bottom: 2%;
+}
+
+.socialBtn {
+    font-family: inherit;
+    font-size: 20px;
+    border: 1px solid rgb(255, 0, 0);
+    padding: 10px 20px;
+    text-decoration-line: none;
+    text-decoration-style: none;
+    color: rgb(255, 0, 0);
+    width: 30%;     
+    /* margin-top: 100px;        */
+}
+
+:hover.socialBtn {
+    transition: 0.5s;
+    color: white;
+    background-color: rgb(255, 0, 0);    
+}

@@ -1,0 +1,44 @@
+/* 
+
+.lorem {
+    height: 100vh; 
+    display: flex; 
+    justify-content: space-between;
+}
+.texto {
+    background-color: hotpink;  
+    box-sizing: border-box;  
+    width: 50%;
+    height: auto;
+    padding: 1px 5%;
+}
+
+.texto h3 {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+.texto h4 {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+.icon{
+    background-image: url('olho.svg');
+    width: 15%;
+    height: 15%;
+}
+
+.texto p {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;    
+}
+
+
+.imagem {
+    background-image: url('lorem.svg');
+    width: 50%;
+    height: auto;
+} */

@@ -1,0 +1,22 @@
+.item {
+    padding: 30px;
+    padding-top: 50px;
+    padding: 5%;
+    width: 70%;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    /* border-radius: 50%; */
+}
+
+
+.item h3 {
+    text-align: center;
+}
+
+.item p {
+    text-align: center;
+    /* text-align: justify; */
+}

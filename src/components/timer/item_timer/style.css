@@ -1,0 +1,31 @@
+
+.cont {
+    background-color: transparent;
+    border: solid white 2px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+}
+
+
+.cont_sub{
+    margin-top: 20%;
+}
+
+#numero{
+    font-family: initial;
+    font-size: 70px;
+    color: white;
+    padding: 0px;
+    margin: 0px
+}
+
+
+#item_timer_titulo{
+    font-family: initial;
+    font-size: initial;
+    color: white;
+    padding: 0px;
+    margin: 0px
+}

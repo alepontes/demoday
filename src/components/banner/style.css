@@ -1,0 +1,36 @@
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url('http://themes.startbootstrap.com/vitality-v2.1.0/img/agency/backgrounds/bg-header.jpg');
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner img {
+    width: 100%;
+    height: 50%;
+    padding: 0px;  
+    margin:  0px;  
+}
+
+.banner h1 {
+    width: 100%;    
+    color: white;
+    font-family: initial;
+    font-size: initial;
+    padding: 0px;
+    margin:  0px;  
+}
+
+.banner h2 {
+    width: 100%;    
+    color: white;
+    font-family: initial;
+    font-size: initial;
+    padding: 0px;
+    margin:  0px;  
+}

@@ -1,0 +1,22 @@
+ 
+.timer {
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 136, 0);
+    text-align: center;
+}
+
+.timer h3 {
+    font-family: initial;
+    font-size: 40px;
+    color: white;
+    padding: 20px;
+    margin: 0px
+}
+
+.itens_timer{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-around;    
+}

@@ -1,0 +1,20 @@
+.celula{
+    width: 30%;
+}
+
+.celula img{  
+    width: 30%;
+    height: 30%;
+}
+
+.celula h5{
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+.celula p{
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
