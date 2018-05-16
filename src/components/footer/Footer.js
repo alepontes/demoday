@@ -6,7 +6,15 @@ class Footer extends Component {
     return (
       <div className="footer">
 
-            {/*
+
+
+      
+
+
+
+
+
+        {/*
             ASSINATURA DO EVENTO
             LINK PARA A PAGINA DO EVENTO OFICIAL
             PATROCINE
@@ -23,7 +31,7 @@ class Footer extends Component {
             Facebook
             Sympla
             Github
-            */}
+        */}
       </div>
     );
   }

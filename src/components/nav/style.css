@@ -37,4 +37,6 @@
     color: white;    
     text-decoration: none;
     margin: 0px;
+    transform: translateY(0.1);
+    opacity: 1;
 }

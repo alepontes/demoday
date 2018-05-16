@@ -23,8 +23,8 @@ class App extends Component {
         <Sociais />
         {/* <Palestrantes /> */}
         <Sobre />
-        <Carousel />
-        {/* <Footer /> */}
+        {/* <Carousel /> */}
+        <Footer />
       </div>
     );
   }
