@@ -20,8 +20,8 @@ class Nav extends Component {
 
   scroll_page = (num) => {
     window.scrollTo({ behavior: 'smooth', top: num });
-    console.log(num)
   }
+
 
   handleScroll = () => {
     console.log(window.scrollY);

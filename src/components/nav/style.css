@@ -1,5 +1,5 @@
 #solid{
-    background-color: #33333d;
+    background-color: black;
 }
 
 .menu{
@@ -11,6 +11,7 @@
     top: 0;     
     box-shadow: 0px -8px 73px black;
     z-index: 100;
+    opacity: 0.9;
 }
 
 .menu img {
@@ -39,4 +40,8 @@
     margin: 0px;
     transform: translateY(0.1);
     opacity: 1;
+}
+
+.back{
+    background-color: blueviolet
 }

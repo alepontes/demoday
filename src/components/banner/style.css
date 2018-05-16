@@ -20,8 +20,8 @@
 .banner h1 {
     width: 100%;    
     color: white;
-    font-family: initial;
-    font-size: initial;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
     padding: 0px;
     margin:  0px;  
 }
@@ -29,8 +29,8 @@
 .banner h2 {
     width: 100%;    
     color: white;
-    font-family: initial;
-    font-size: initial;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
     padding: 0px;
     margin:  0px;  
 }

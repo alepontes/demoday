@@ -9,7 +9,7 @@
 }
 
 .titulo h2 {
-    font-family: inherit;
+    font-family: 'Montserrat', sans-serif;
     font-size: 50px;
     color: inherit;
     width: 100%;
@@ -17,10 +17,11 @@
 }
 
 .titulo p {
-    font-family: inherit;
-    font-size: inherit;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
     color: inherit;
-    width: 100%;    
+    width: 100%;   
+    margin: 0px 15px; 
 }
 
 
