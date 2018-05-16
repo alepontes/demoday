@@ -9,7 +9,7 @@ class Carousel extends Component {
         return (
             <div className="carousel">
                 <Carousell>
-                   <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide1" />
+                   <img id="abc" src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide1" />
                     <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide2" />
                     <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide3" /> 
                 </Carousell>

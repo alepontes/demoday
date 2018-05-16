@@ -6,7 +6,7 @@ class Ipsum extends Component {
 
   render() {
     return (
-      <div className="ipsum">
+      <div className="ipsum" id="ipsum">
 
         <a className="ipsum_icon"></a>
         <img src="https://www.stackoverflowbusiness.com/hubfs/B2B-SO/Sales/Images/Home/Worlds.svg?t=1525369981377" className="ipsum_icon" />

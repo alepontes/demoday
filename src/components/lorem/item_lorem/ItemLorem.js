@@ -10,14 +10,14 @@ class ItemLorem extends Component {
 
     if (p.type) {
       return (
-        <div className="lorem">
+        <div className="lorem" id={p.id}>
           {texto(p.icon, p.topico, p.titulo, p.texto)}
           {imagem(p.imagem)}
         </div>
       );
     } else {
       return (
-        <div className="lorem">
+        <div className="lorem" id={p.id}>
           {imagem(p.imagem)}
           {texto(p.icon, p.topico, p.titulo, p.texto)}
         </div>

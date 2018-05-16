@@ -4,7 +4,7 @@ import './style.css';
 class Sociais extends Component {
   render() {
     return (
-      <div className="sociais">
+      <div className="sociais" id="sociais">
         <div className="conteudo">
           <h3>Lorem ipsum <strong>dolor</strong> sit amet, consectetur <strong>adipiscing</strong> elit</h3>
 
