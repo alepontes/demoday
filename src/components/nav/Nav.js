@@ -18,7 +18,7 @@ class Nav extends Component {
 
   handleScroll = () => {
     console.log(this);
-    if(window.scrollY <40 ){
+    if(window.scrollY < 3 ){
       this.setState({bg: "trans"})
     }
     else{

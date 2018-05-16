@@ -2,14 +2,14 @@
 .timer {
     width: 100%;
     height: auto;
-    background-color: rgb(255, 136, 0);
+    /* background-color: rgb(255, 136, 0); */
     text-align: center;
 }
 
 .timer h3 {
     font-family: initial;
     font-size: 40px;
-    color: white;
+    color: black;
     padding: 20px;
     margin: 0px
 }

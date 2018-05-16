@@ -1,7 +1,7 @@
 
 .cont {
     background-color: transparent;
-    border: solid white 2px;
+    border: solid black 2px;
     border-radius: 50%;
     width: 150px;
     height: 150px;
@@ -16,7 +16,7 @@
 #numero{
     font-family: initial;
     font-size: 70px;
-    color: white;
+    color: black;
     padding: 0px;
     margin: 0px
 }
@@ -25,7 +25,7 @@
 #item_timer_titulo{
     font-family: initial;
     font-size: initial;
-    color: white;
+    color: black;
     padding: 0px;
     margin: 0px
 }

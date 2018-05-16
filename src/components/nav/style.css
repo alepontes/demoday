@@ -1,9 +1,8 @@
 #solid{
-    background-color: blue;
+    background-color: #33333d;
 }
 
 .menu{
-    /* background-color:  tomato; */
     background-color:  transparent;
     display: flex;
     position: fixed;

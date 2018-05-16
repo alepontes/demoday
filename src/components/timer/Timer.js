@@ -3,6 +3,59 @@ import './style.css';
 import ItemTimer from './item_timer/ItemTimer'
 
 class Timer extends Component {
+
+    componentWillMount() {
+
+        this.setState({ meses: 0 })
+        this.setState({ semanas: 0 })
+        this.setState({ dias: 0 })
+        this.setState({ horas: 0 })
+        this.setState({ minutos: 0 })
+        this.setState({ segundos: 0 })
+
+    }
+
+    componentDidMount = () => {
+
+        let data_prevista = new Date("november 17, 2018").getTime();
+        let segundos;
+
+        setInterval(() => {
+
+            let data_atual = new Date().getTime();
+            let segundos_a = (data_prevista - data_atual) / 1000;
+
+            this.setState({ meses: parseInt(segundos_a / 2592000) });
+            segundos_a = segundos_a % 2592000;
+
+            this.setState({ semanas: parseInt(segundos_a / 604800) });
+            segundos_a = segundos_a % 604800;
+
+            this.setState({ dias: parseInt(segundos_a / 86400) });
+            segundos_a = segundos_a % 86400;
+
+
+            this.setState({ horas: parseInt(segundos_a / 3600) });
+            segundos_a = segundos_a % 3600;
+
+            this.setState({ minutos: parseInt(segundos_a / 60) });
+            this.setState({ segundos: segundos = parseInt(segundos_a % 60) });
+            // segundos = parseInt(segundos_a % 60)
+
+
+            // console.log(segundos)
+
+            // document.getElementById('mes').innerHTML = meses
+            // document.getElementById('dia').innerHTML = dias;
+            // document.getElementById('hora').innerHTML = horas;
+            // document.getElementById('minuto').innerHTML = minutos;
+            // document.getElementById('segundo').innerHTML = segundos;
+
+
+        }, 1000)
+
+    }
+
     render() {
         return (
             <div className="timer">
@@ -10,31 +63,30 @@ class Timer extends Component {
 
                 <h3>Contagem Regressiva</h3>
 
-
                 <div className="itens_timer">
                     <ItemTimer
-                        num="5"
+                        num={this.state.meses}
                         desc="Mêses"
                     />
                     <ItemTimer
-                        num="4"
+                        num={this.state.semanas}
                         desc="Semanas"
                     />
                     <ItemTimer
-                        num="17"
+                        num={this.state.dias}
                         desc="Dias"
                     />
                     <ItemTimer
-                        num="22"
+                        num={this.state.horas}
                         desc="Horas"
                     />
 
                     <ItemTimer
-                        num="51"
+                        num={this.state.minutos}
                         desc="Minutos"
                     />
                     <ItemTimer
-                        num="43"
+                        num={this.state.segundos}
                         desc="Segundos"
                     />
                 </div>
@@ -91,5 +143,6 @@ class Timer extends Component {
         );
     }
 }
+
 
 export default Timer;
