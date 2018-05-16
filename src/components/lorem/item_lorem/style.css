@@ -14,7 +14,7 @@
 }
 
 .item_lorem h3 {
-    font-family: inherit;
+    font-family: 'Montserrat', sans-serif;
     font-size: 22px;
     color: inherit;
     margin-top: 2px;
@@ -22,13 +22,13 @@
 }
 
 .item_lorem h4 {
-    font-family: inherit;
+    font-family: 'Montserrat', sans-serif;
     font-size: inherit;
     color: inherit;
 }
 
 .item_lorem p {
-    font-family: inherit;
+    font-family: 'Montserrat', sans-serif;
     font-size: inherit;
     color: inherit;  
 }
