@@ -14,12 +14,13 @@
 .conteudo h3 {
     display: flex;
     justify-content: center;
-    font-family: inherit;
+    font-family: 'Montserrat', sans-serif;
     font-size: 40px;  
     margin: 10px 0px;
     text-align: center;
     letter-spacing: normal;
     word-spacing: normal;
+    margin-bottom: 80px;
 }
 
 .conteudo h3 strong {

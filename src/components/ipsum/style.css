@@ -14,15 +14,15 @@
 }
 
 .ipsum h3 {
-    font-family: inherit;
-    font-size: inherit;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
     color: inherit;
     padding: 0px 10px;
 }
 
 .ipsum p {
-    font-family: inherit;
-    font-size: inherit;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
     color: inherit;
     padding: 0px 60px;    
 }

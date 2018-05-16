@@ -41,8 +41,8 @@ class Nav extends Component {
 
           <ul>
             <li><a onClick={() => this.scroll_page(0)}>Lorem</a></li>
-            <li><a onClick={() => this.scroll_page(910)}>Topico 1</a></li>
-            <li><a onClick={() => this.scroll_page(1618)}>Topico 2</a></li>
+            <li><a onClick={() => this.scroll_page(775)}>Empreender</a></li>
+            <li><a onClick={() => this.scroll_page(1618)}>Redes</a></li>
             <li><a onClick={() => this.scroll_page(2208)}>Topico 3</a></li>
             <li><a onClick={() => this.scroll_page(2879)}>Ipsum</a></li>
             <li><a onClick={() => this.scroll_page(3538)}>Ipsum</a></li>

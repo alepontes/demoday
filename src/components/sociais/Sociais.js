@@ -8,10 +8,11 @@ class Sociais extends Component {
         <div className="conteudo">
           <h3>Lorem ipsum <strong>dolor</strong> sit amet, consectetur <strong>adipiscing</strong> elit</h3>
 
-          <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          {/* <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
             ut aliquip ex ea commodo consequat
-          </p>
+          </p> */}
+
           <a href="#" className="socialBtn">Ir para o Facebook</a>
         </div>
       </div>

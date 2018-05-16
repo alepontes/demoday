@@ -7,9 +7,9 @@
 }
 
 .timer h3 {
-    font-family: initial;
-    font-size: 40px;
-    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    color: #787cf0;
     padding: 20px;
     margin: 0px
 }
@@ -18,5 +18,6 @@
     width: auto;
     height: auto;
     display: flex;
+    font-family: 'Courier New', Courier, monospace;
     justify-content: space-around;    
 }

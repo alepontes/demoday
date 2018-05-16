@@ -18,11 +18,11 @@ class App extends Component {
         <Nav />
         <Banner />
         <Timer />
+        <Sobre />   
+        <Sociais />             
         <Lorem />
         <Ipsum />
-        <Sociais />
         {/* <Palestrantes /> */}
-        <Sobre />
         {/* <Carousel /> */}
         <Footer />
       </div>
