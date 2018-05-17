@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import './style.css';
-import ItemLorem from './item_lorem/ItemLorem'
+import ItemLorem from './item_lorem/ItemLorem';
+let educar = require('./img/Educate.svg');
+let inovar = require('./img/World.svg');
+let olho = require('./img/Olho.svg');
+let test = require('./img/Test.svg');
 
 class Lorem extends Component {
 
@@ -12,9 +16,9 @@ class Lorem extends Component {
         <ItemLorem 
           type={false} 
           id="lorem1"
-          imagem="http://www.stackoverflowbusiness.com/hubfs/B2B-SO/Sales/Images/Home/Educate-BuildAwareness.svg?t=1525446690975" 
-          icon="https://www.stackoverflowbusiness.com/hubfs/B2B-SO/Sales/Images/Home/Educate.svg?t=1525446690975" 
-          topico="Capacitar" 
+          imagem={educar} 
+          icon={olho} 
+          topico="Educar" 
           titulo="" 
           texto=" A SGE é um movimento global presente em mais de 160 países que reúne as pessoas para falar
            do empreendedorismo como motor para o desenvolvimento econômico e social. Pouco se sabe sobre o 
@@ -29,9 +33,9 @@ class Lorem extends Component {
         <ItemLorem 
           type={true} 
           id="lorem3"
-          imagem="http://www.stackoverflowbusiness.com/hubfs/B2B-SO/Sales/Images/Home/Educate-BuildAwareness.svg?t=1525446690975" 
-          icon="https://www.stackoverflowbusiness.com/hubfs/B2B-SO/Sales/Images/Home/Educate.svg?t=1525446690975" 
-          topico="Conectar" 
+          imagem={inovar} 
+          icon={test} 
+          topico="Inovar" 
           titulo="" 
           texto=" 
           Esse movimento Global busca fortalecer a capacidade empreendedora dos mais de 130

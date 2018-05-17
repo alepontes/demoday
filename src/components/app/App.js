@@ -19,9 +19,9 @@ class App extends Component {
         <Banner />
         <Timer />
         <Sobre />   
-        <Sociais />             
         <Lorem />
         <Ipsum />
+        <Sociais />                     
         {/* <Palestrantes /> */}
         {/* <Carousel /> */}
         <Footer />

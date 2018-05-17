@@ -37,13 +37,13 @@ class Nav extends Component {
     return (
       <div className="nav">
         <div className="menu" id={this.state.bg}>
-          <img src="http://themes.startbootstrap.com/vitality-v2.1.0/img/agency/logo.svg" alt="" />
+          {/* <img src="http://themes.startbootstrap.com/vitality-v2.1.0/img/agency/logo.svg" alt="" /> */}
 
           <ul>
-            <li><a onClick={() => this.scroll_page(0)}>Lorem</a></li>
-            <li><a onClick={() => this.scroll_page(775)}>Empreender</a></li>
+            <li><a onClick={() => this.scroll_page(0)}>Olá</a></li>
+            <li><a onClick={() => this.scroll_page(775)}>Empreenda</a></li>
             <li><a onClick={() => this.scroll_page(1776)}>Veja</a></li>
-            <li><a onClick={() => this.scroll_page(2638)}> (2x) Capacitar</a></li>
+            <li><a onClick={() => this.scroll_page(2638)}>Viva</a></li>
             <li><a onClick={() => this.scroll_page(3538)}>Patrocíne</a></li>
             <li><a onClick={() => this.scroll_page(4291)}>Sobre</a></li>
           </ul>
